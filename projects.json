@@ -4,16 +4,16 @@
 		{
 			"id": 1,
 			"title": "Insights",
-			"date": "January 9",
-			"summary": "Unlike the other menu items, Fish Fillet sales followed a very regular pattern in the month of January 2016, where sales peaked on Friday in most regions. However, the Northeastern region seems to have an irregular pattern of Fish Fillet sales peaking on Thursday and Sunday.",
-			"image": "ffdailyavg.png"
+			"date": "January 16",
+			"summary": "Overall, all items in all regions follow a very similar pattern from 2016 to 2019. The general trend is increasing monthly sales, however there was a large drop during October 2018 due to the Impossible Burger, which also negatively affected the sales of subsequent months.",
+			"image": "monthlysales.png"
 		},
 		{
 			"id": 2,
 			"title": "Insights",
-			"date": "January 16",
-			"summary": "All items in all regions follow a very similar pattern from 2016 to 2019. The general trend is increasing monthly sales, however there was a large drop during October 2018, which also negatively affected the sales of subsequent months.",
-			"image": "monthlysales.png"
+			"date": "January 9",
+			"summary": "All menu items suffered a decrease in sales after the Impossible Burger release, with hamburger sales decreasing the most, on average by -228,337.4 sales in October across all regions. This caused monthly sales to return to the levels from a year before, undoing one year's worth of increasing sales.",
+			"image": "hamburgsalesdiff.png"
 		},
 		{
 			"id": 3,
@@ -35,6 +35,13 @@
 			"date": "February 6",
 			"summary": "Chicken Fillet sales peak around the end of each season, with lower sales during the beginning of the season.",
 			"image": "cfavgmonthly.png"
+		},
+		{
+			"id": 6,
+			"title": "Insights",
+			"date": "January 9",
+			"summary": "Unlike the other menu items, Fish Fillet sales followed a very regular pattern in the month of January 2016, where sales peaked on Friday in most regions. However, the Northeastern region seems to have an irregular pattern of Fish Fillet sales peaking on Thursday and Sunday.",
+			"image": "ffdailyavg.png"
 		}
 	]
 }
