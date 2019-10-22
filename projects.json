@@ -1,0 +1,40 @@
+{
+	"projects": 
+	[
+		{
+			"id": 1,
+			"title": "Insights",
+			"date": "January 9",
+			"summary": "Unlike the other menu items, Fish Fillet sales followed a very regular pattern in the month of January 2016, where sales peaked on Friday in most regions. However, the Northeastern region seems to have an irregular pattern of Fish Fillet sales peaking on Thursday and Sunday.",
+			"image": "ffdailyavg.png"
+		},
+		{
+			"id": 2,
+			"title": "Insights",
+			"date": "January 16",
+			"summary": "All items in all regions follow a very similar pattern from 2016 to 2019. The general trend is increasing monthly sales, however there was a large drop during October 2018, which also negatively affected the sales of subsequent months.",
+			"image": "monthlysales.png"
+		},
+		{
+			"id": 3,
+			"title": "Insights",
+			"date": "January 23",
+			"summary": "In the case of hamburgers, regions tend to follow the same sales trends. Sales tend to peak at the beginning of a season, and are at the lowest at the end of the season.",
+			"image": "hmavgmonthly.png"
+		},
+		{
+			"id": 4,
+			"title": "Insights",
+			"date": "January 30",
+			"summary": "Regions follow the same monthly general trends, with Fish Fillet sales peaking at the end of each season and then dropping at the beginning of the new season.",
+			"image": "ffavgmonthly.png"
+		},
+		{
+			"id": 5,
+			"title": "Insights",
+			"date": "February 6",
+			"summary": "Chicken Fillet sales peak around the end of each season, with lower sales during the beginning of the season.",
+			"image": "cfavgmonthly.png"
+		}
+	]
+}

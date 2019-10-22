@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+<head>
+
+
+	<title>McDonald's Sales Trends</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/mcdcss.css" rel="stylesheet">
+  
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>DSC 106 McDonald's Trends</h1>
+			<p>by Pete Sheurpukdi</p>
+		</div>
+
+		<h2 align='center'>Trends</h2>
+		{{#if viewAlt}}
+			<div class="project">
+				<!-- <p>Min! <button class="likeBtn">Like</button></p> -->
+			</div>
+
+		
+		{{else}}
+			{{#each projects}}
+				<div class="project" id="{{id}}">
+					<div class="thumbnail">
+						
+						<img src="images/{{image}}" alt="Lorem Pixel image">
+						<h4 align="center">{{title}}</h4>
+						<h5 align="center">{{summary}}</h5>
+						
+						<!-- <div class="likeCtr"><button class="btn btn-default likeBtn">Like</button></div> -->
+						<!-- <div class="details"></div> -->
+					</div>
+				</div>
+			{{/each}}
+		{{/if}}
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/mcd.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134956589-1"></script>
+
+</body>
+</html>
